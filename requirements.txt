@@ -1,0 +1,11 @@
+streamlit
+streamlit-mic-recorder
+pandas
+numpy
+scikit-learn
+librosa
+soundfile
+tsfel
+joblib
+resampy
+scipy
