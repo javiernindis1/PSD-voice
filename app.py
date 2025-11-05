@@ -5,6 +5,7 @@ import io
 import numpy as np
 import streamlit as st
 import librosa
+import pandas as pd
 import joblib
 import soundfile as sf
 from scipy.stats import skew, kurtosis
@@ -144,3 +145,4 @@ if audio and "bytes" in audio and audio["bytes"] is not None:
 
 else:
     st.info("Klik tombol 🎤 **Mulai Rekam**, ucapkan 'buka' atau 'tutup', lalu tekan ⏹️ **Stop** untuk mendeteksi suara.")
+
